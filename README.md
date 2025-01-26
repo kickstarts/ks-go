@@ -1,3 +1,10 @@
+# About
+
+This is a simple project to learn how to structure a Go project.
+
+# Project Structure
+
+```bash
 project-name/
 ├── cmd/ # Pontos de entrada da aplicação
 │ ├── api/
@@ -35,3 +42,20 @@ project-name/
 ├── go.mod # Arquivo de dependências (Módulos Go)
 ├── go.sum # Checksum das dependências
 └── README.md # Documentação do projeto
+```
+
+# Run
+
+```bash
+go run cmd/api/main.go
+```
+
+# Build
+
+```bash
+go build -o bin/api cmd/api/main.go
+```
+
+# License
+
+MIT
